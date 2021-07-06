@@ -148,7 +148,8 @@ export FZF_BASE="/usr/bin/fzf"
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias zshcon="nvim ~/.zshrc"
+alias zshcons="nvim ~/.zshrc"
+alias zshcon="nvim ~/mydotfiles/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"i
 alias mntc="cd /mnt/c"
 alias mntd="cd /mnt/h"
