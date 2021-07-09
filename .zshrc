@@ -169,3 +169,6 @@ if [ -x "$(command -v colorls)" ]; then
     alias la="colorls -al"
 fi
 
+
+# adding starship prompt
+eval "$(starship init zsh)"
