@@ -164,11 +164,13 @@ alias mydot="cd ~/mydotfiles"
 alias szsh="source ~/.zshrc"
 alias ni="nvim"
 alias em="emacs"
+alias starcon="nvim ~/.config/starship_config/config.toml"
+
 if [ -x "$(command -v colorls)" ]; then
     alias ls="colorls"
     alias la="colorls -al"
 fi
 
-
 # adding starship prompt
 eval "$(starship init zsh)"
+export STARSHIP_CONFIG=~/.config/starship_config/config.toml
