@@ -8,7 +8,7 @@ export ZSH="/home/hkdevs/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="hk"
+ZSH_THEME="agnoster"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -167,13 +167,15 @@ alias em="emacs"
 alias starcon="nvim ~/.config/starship_config/config.toml"
 alias cls="clear"
 alias lda="lsd -a"
-
-
+alias .con="cd ~/.config"
+alias lzg="~/lazygit"
 if [ -x "$(command -v colorls)" ]; then
     alias ls="colorls"
     alias la="colorls -al"
 fi
 
+# adding go export
+export PATH=$PATH:/usr/local/go/bin
 # adding starship prompt
 # eval "$(starship init zsh)"
 # export STARSHIP_CONFIG=~/.config/starship_config/config.toml
