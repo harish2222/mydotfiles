@@ -30,13 +30,13 @@ ZSH_THEME="hk"
 # DISABLE_UPDATE_PROMPT="true"
 
 # Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=13
+export UPDATE_ZSH_DAYS=13
 
 # Uncomment the following line if pasting URLs and other text is messed up.
 # DISABLE_MAGIC_FUNCTIONS="true"
 
 # Uncomment the following line to disable colors in ls.
-# DISABLE_LS_COLORS="true"
+DISABLE_LS_COLORS="false"
 
 # Uncomment the following line to disable auto-setting terminal title.
 # DISABLE_AUTO_TITLE="true"
@@ -182,3 +182,6 @@ export PATH=$PATH:/usr/local/go/bin
 # adding starship prompt
 # eval "$(starship init zsh)"
 # export STARSHIP_CONFIG=~/.config/starship_config/config.toml
+
+# ading neofetch to terminal
+neofetch
