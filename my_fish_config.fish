@@ -15,13 +15,6 @@ alias .c="cd ~/.config"
 alias lz="~/lazygit"
 alias nvimcon='~/.config/nvim'
 alias vim="nvim"
-<<<<<<< HEAD
 alias ls="colorls"
 alias la="colorls -la"
-alias gs="git status"
-=======
-
-
-
->>>>>>> 036dc0a11b244bd94a4a96cda81949085888151a
-
+alias gss="git status"
