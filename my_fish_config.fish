@@ -18,3 +18,9 @@ alias vim="nvim"
 alias ls="colorls"
 alias la="colorls -la"
 alias gss="git status"
+# Golang developers might need this one
+set -xg GOPATH $HOME/gocode
+
+# Python developers otherwise
+set -xg PYTHONDONTWRITEBYTECODE 1
+
