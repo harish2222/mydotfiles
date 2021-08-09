@@ -1,7 +1,7 @@
 alias mntc="cd /mnt/c"
 alias mntd="cd /mnt/h"
 alias prog="cd ~/PROGRAMMING"
-alias mnthome="cd /mnt/c/Users/haris"
+alias mnthm="cd /mnt/c/Users/haris"
 alias hm="cd ~"
 alias mnth="cd /mnt/h"
 alias mydot="cd ~/mydotfiles"
@@ -18,9 +18,10 @@ alias vim="nvim"
 alias ls="colorls"
 alias la="colorls -la"
 alias gss="git status"
+alias vi='nvim'
+
 # Golang developers might need this one
 set -xg GOPATH $HOME/gocode
 
 # Python developers otherwise
 set -xg PYTHONDONTWRITEBYTECODE 1
-

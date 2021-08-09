@@ -157,7 +157,7 @@ alias zshcon="nvim ~/mydotfiles/.zshrc"
 alias mntc="cd /mnt/c"
 alias mntd="cd /mnt/h"
 alias prog="cd ~/PROGRAMMING"
-alias mnthome="cd /mnt/c/Users/haris"
+alias mnthm="cd /mnt/c/Users/haris"
 alias hm="cd ~"
 alias mnth="cd /mnt/h"
 alias mydot="cd ~/mydotfiles"
@@ -167,11 +167,10 @@ alias em="emacs"
 alias starcon="nvim ~/.config/starship_config/config.toml"
 alias cls="clear"
 alias lda="lsd -a"
-alias .con="cd ~/.config"
-alias lzg="~/lazygit"
-alias lazygit="~/lazygit"
+alias .c="cd ~/.config"
+alias lz="~/lazygit"
 alias nvimcon='~/.config/nvim'
-
+alias conda='~/miniconda3/bin/conda'
 if [ -x "$(command -v colorls)" ]; then
     alias ls="colorls"
     alias la="colorls -al"
@@ -183,5 +182,10 @@ export PATH=$PATH:/usr/local/go/bin
 # eval "$(starship init zsh)"
 # export STARSHIP_CONFIG=~/.config/starship_config/config.toml
 
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+export PATH="/home/hkdevs/miniconda3/bin:$PATH"
+
+
 # ading neofetch to terminal
-neofetch
