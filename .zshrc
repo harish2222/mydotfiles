@@ -182,10 +182,9 @@ export PATH=$PATH:/usr/local/go/bin
 # eval "$(starship init zsh)"
 # export STARSHIP_CONFIG=~/.config/starship_config/config.toml
 
-
+fortune | cowsay
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-export PATH="/home/hkdevs/miniconda3/bin:$PATH"
-
-
+export PATH="~/.local/lib/python3.9/:$PATH"
+export PATH="~/.local/bin:$PATH"
 # ading neofetch to terminal
