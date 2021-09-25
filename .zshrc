@@ -182,7 +182,7 @@ export PATH=$PATH:/usr/local/go/bin
 # eval "$(starship init zsh)"
 # export STARSHIP_CONFIG=~/.config/starship_config/config.toml
 
-fortune | cowsay
+fortune | cowsay | lolcat
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 export PATH="~/.local/lib/python3.9/:$PATH"
