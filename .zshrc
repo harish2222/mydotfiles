@@ -92,7 +92,6 @@ plugins=(
     copyfile
     cp
     debian
-    django
     docker
     docker-machine
     docker-compose
